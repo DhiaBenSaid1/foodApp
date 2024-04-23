@@ -8,8 +8,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+
+
 public class MainActivity extends AppCompatActivity {
     String menu[] = {"burgers", "sandwichs", "hlouw"};
+
     int menuImages[] = {R.drawable.burger,R.drawable.sandwich,R.drawable.hlouw};
     ListView listView;
 
@@ -29,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(position == 1){
                     Intent intent = new Intent(getApplicationContext(), sandwichMenu.class);
+                    startActivity(intent);
+                }
+                if(position == 2){
+                    Intent intent = new Intent(getApplicationContext(), hlouw_menu.class);
                     startActivity(intent);
                 }
             }

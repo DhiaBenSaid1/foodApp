@@ -13,6 +13,27 @@
         android:theme="@style/Theme.FoodApp"
         tools:targetApi="31">
         <activity
+            android:name=".makloubSandwich"
+            android:exported="false" />
+        <activity
+            android:name=".gyrosSandwich"
+            android:exported="false" />
+        <activity
+            android:name=".garlocBurger"
+            android:exported="false" />
+        <activity
+            android:name=".CaseohBurger"
+            android:exported="false" />
+        <activity
+            android:name=".bombaklatBurger"
+            android:exported="false" />
+        <activity
+            android:name=".hlouw_menu"
+            android:exported="false" />
+        <activity
+            android:name=".hlouwMenu"
+            android:exported="false" />
+        <activity
             android:name=".sandwichMenu"
             android:exported="false" />
         <activity
